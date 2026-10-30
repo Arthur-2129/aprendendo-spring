@@ -4,7 +4,6 @@ import com.javanauta.aprendendo_spring.infrastructure.entity.Usuario;
 import com.javanauta.aprendendo_spring.infrastructure.exceptions.ConflictException;
 import com.javanauta.aprendendo_spring.infrastructure.exceptions.ResourceNotFoundException;
 import com.javanauta.aprendendo_spring.infrastructure.repository.UsuarioRepository;
-import io.jsonwebtoken.security.Password;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
